@@ -8,9 +8,20 @@ public class CheckOperator : MonoBehaviour
 
     public LineRenderer[] ValidLines;
 
+    public ReactOnTouch GnobPrefab;
+
+    private List<ReactOnTouch> CircuitPositions = new List<ReactOnTouch>();
+
     private void Awake()
     {
         Instance = this;
+        foreach (var line in ValidLines)
+        {
+            for (var i = 1; i < line.positionCount - 1; i++)
+            {
+                CircuitPositions.Add(GameObject.Instantiate(GnobPrefab, line.transform.TransformPoint(line.GetPosition(i)), Quaternion.identity, transform));
+            }
+        }
     }
 
     public bool CheckPosition(OperatorControl control, out Vector3 pos)
@@ -20,7 +31,6 @@ public class CheckOperator : MonoBehaviour
             for (var i = 1; i < line.positionCount - 1; i++)
             {
                 pos = line.transform.TransformPoint(line.GetPosition(i));
-                //Debug.DrawLine(pos, control.transform.position, Color.blue);
                 if (control.IsInPos(pos))
                 {
                     return true;

@@ -10,9 +10,12 @@ public class OperatorControl : MonoBehaviour
 
     public float MoveSpeed = 5F;
 
+    public ReactOnTouch CurrentPos { get; internal set; }
+
     private bool _moving = false;
     private Vector3 _startPos;
     private Renderer _renderer;
+
 
     public bool IsInPos(Vector3 pos)
     {
@@ -35,10 +38,11 @@ public class OperatorControl : MonoBehaviour
     public void CheckPositionAfterMove()
     {
         _moving = false;
-        if (CheckOperator.Instance.CheckPosition(this, out var pos))
+        if (CurrentPos && IsInPos(CurrentPos.transform.position))
         {
             Destroy(GetComponent<ObjectManipulator>());
-            StartCoroutine(MoveTo(pos));
+            StartCoroutine(MoveTo(CurrentPos.transform.position));
+            CurrentPos.Operator = this;
         }
         else
         {
@@ -61,10 +65,10 @@ public class OperatorControl : MonoBehaviour
 
     private void Update()
     {
-        if (_moving && CheckOperator.Instance.CheckPosition(this, out var pos))
-        {
+        //if (_moving && CheckOperator.Instance.CheckPosition(this, out var pos))
+        //{
 
-        }
+        //}
     }
 
     private IEnumerator CheckIfMovedAsync()
