@@ -1,3 +1,2 @@
 # EduQuantX
-
-A An Edugame teaching users Quantum Computing through Schrodinger's Cat.
+An Edugame teaching users Quantum Computing through Schrodinger's Cat.
