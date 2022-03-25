@@ -10,12 +10,19 @@ public class OperatorControl : MonoBehaviour
 
     public float MoveSpeed = 5F;
 
-    public ReactOnTouch CurrentPos { get; internal set; }
+    public ReactOnTouch CurrentPos
+    {
+        get => _currentPos; internal set
+        {
+            GetComponent<Animator>().Play("onGnob");
+            _currentPos = value;
+        }
+    }
 
     private bool _moving = false;
     private Vector3 _startPos;
     private Renderer _renderer;
-
+    private ReactOnTouch _currentPos;
 
     public bool IsInPos(Vector3 pos)
     {
@@ -41,6 +48,7 @@ public class OperatorControl : MonoBehaviour
         if (CurrentPos && IsInPos(CurrentPos.transform.position))
         {
             Destroy(GetComponent<ObjectManipulator>());
+            Destroy(GetComponent<Rigidbody>());
             StartCoroutine(MoveTo(CurrentPos.transform.position));
             CurrentPos.Operator = this;
         }
@@ -52,6 +60,8 @@ public class OperatorControl : MonoBehaviour
 
     private IEnumerator MoveTo(Vector3 pos, bool destroyAfterReach = false)
     {
+        GetComponent<Rigidbody>().velocity = Vector3.zero;
+        GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
         while (Vector3.Distance(pos, transform.position) > 0.01F)
         {
             transform.position = Vector3.Lerp(transform.position, pos, MoveSpeed * Time.deltaTime);

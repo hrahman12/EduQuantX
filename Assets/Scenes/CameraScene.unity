@@ -352,6 +352,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 577044648679767540, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a75e52c444fbeb243bfaafb103401f8c, type: 2}
     - target: {fileID: 577044648679767545, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
       propertyPath: constraintsManager
       value: 
@@ -428,6 +432,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4931810852816365412, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a75e52c444fbeb243bfaafb103401f8c, type: 2}
     - target: {fileID: 4931810852816365417, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
       propertyPath: constraintsManager
       value: 
@@ -448,6 +456,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5312935483487563772, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0f849f158a4eb944a938c0734e048c27, type: 2}
     - target: {fileID: 5312935483716451577, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
       propertyPath: m_Layer
       value: 10
@@ -456,6 +468,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 6108130981980270679, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a75e52c444fbeb243bfaafb103401f8c, type: 2}
     - target: {fileID: 6108130981980270685, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
       propertyPath: m_Layer
       value: 10
@@ -468,6 +484,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7006213890268397079, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0f849f158a4eb944a938c0734e048c27, type: 2}
     - target: {fileID: 7006213890268397082, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
       propertyPath: constraintsManager
       value: 
