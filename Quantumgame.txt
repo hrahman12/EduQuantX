@@ -19,5 +19,5 @@ Create a Superposition State:
 Create an Entanglement State:
 -Make the cat Entangled (Both Alive and Dead).
 
-Create an Entangled State
--Put the cat as both Alive and Dead (any probabilites).
+Create an Noisy State
+-Make the Cat noisy, gliching.
