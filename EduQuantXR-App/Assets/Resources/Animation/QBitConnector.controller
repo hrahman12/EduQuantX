@@ -32,7 +32,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: H
+  m_Name: QBitConnector
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -69,7 +69,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 42563edf3fb6c424ba6e763374c309c7, type: 2}
+  m_Motion: {fileID: 7400000, guid: 5e78c2af851c9b045aabd077fa8cde17, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -134,10 +134,10 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -1408515917611907551}
-    m_Position: {x: 220, y: 10, z: 0}
+    m_Position: {x: 260, y: 30, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2060882849315994111}
-    m_Position: {x: 190, y: 250, z: 0}
+    m_Position: {x: 200, y: 220, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3733547678319967562}
     m_Position: {x: 225, y: 315, z: 0}

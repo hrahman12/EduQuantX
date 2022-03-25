@@ -12,11 +12,12 @@ public class OperatorControl : MonoBehaviour
 
     public bool IsTwoLined = false;
 
+    public bool Respawnes = true;
+
     public ReactOnTouch CurrentPos
     {
         get => _currentPos; internal set
         {
-            GetComponent<Animator>().playbackTime = 0f;
             GetComponent<Animator>().Play("onGnob");
             _currentPos = value;
         }
@@ -97,7 +98,8 @@ public class OperatorControl : MonoBehaviour
         {
             yield return new WaitForEndOfFrame();
         }
-        GameObject.Instantiate(gameObject, startPos, startRot, transform.parent);
+        if (Respawnes)
+            GameObject.Instantiate(gameObject, startPos, startRot, transform.parent);
         _createdClone = true;
         _moving = true;
     }

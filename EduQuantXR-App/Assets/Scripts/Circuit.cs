@@ -13,7 +13,7 @@ public class Circuit : MonoBehaviour
 
     public ReactOnTouch GnobPrefab;
 
-    public LineRenderer QubitAttachPrefab;
+    public QubitConnector QubitAttachPrefab;
 
     private List<ReactOnTouch> CircuitPositions = new List<ReactOnTouch>();
 
@@ -56,12 +56,12 @@ public class Circuit : MonoBehaviour
                 validGnobs.Add(curGnob);
             }
         }
-        var line = GameObject.Instantiate(QubitAttachPrefab, gnob.transform.position + CameraCache.Main.transform.forward * -0.3F, Quaternion.identity, gnob.transform);
+        var connector = GameObject.Instantiate(QubitAttachPrefab, gnob.transform.position + CameraCache.Main.transform.forward * -0.3F, Quaternion.identity, gnob.Operator.transform);
+        connector.ChangeColor(gnob.Operator.GetComponent<Renderer>().sharedMaterial.color);
         // was qubit connector attached?
-        while (validGnobs.Any(n => n.Operator))
+        while (validGnobs.All(n => !n.Operator))
         {
-            line.SetPosition(0, line.transform.InverseTransformPoint(gnob.transform.position));
-            line.SetPosition(1, line.transform.localPosition);
+            connector.LineRoot.position = gnob.transform.position;
             yield return new WaitForEndOfFrame();
         }
         foreach (var curGnob in CircuitPositions)
