@@ -134,34 +134,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a98de877dee5fc341b4eb59dfdab266c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &337587941 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8628574533793743472, guid: 873cb5a9cf5daa84199ce5928dfed673, type: 3}
-  m_PrefabInstance: {fileID: 1017227176}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &337587943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337587941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf98dd1206224111a38765365e98e207, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lockCursorWhenFocusLocked: 1
-  setCursorInvisibleWhenFocusLocked: 0
-  maxGazeCollisionDistance: 10
-  raycastLayerMasks:
-  - serializedVersion: 2
-    m_Bits: 4294967291
-  stabilizer:
-    storedStabilitySamples: 60
-  gazeTransform: {fileID: 0}
-  minHeadVelocityThreshold: 0.5
-  maxHeadVelocityThreshold: 2
 --- !u!1 &653118594
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,7 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83d9acc7968244a8886f3af591305bcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeProfile: {fileID: 11400000, guid: 71be02b52a35f4d2884de6eba75f7b98, type: 2}
+  activeProfile: {fileID: 11400000, guid: f9547f1b77621914c9770c10258ed161, type: 2}
 --- !u!4 &653118596
 Transform:
   m_ObjectHideFlags: 0
@@ -569,11 +541,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8628574533793743474, guid: 873cb5a9cf5daa84199ce5928dfed673, type: 3}
       propertyPath: m_ClearFlags
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8628574533793743474, guid: 873cb5a9cf5daa84199ce5928dfed673, type: 3}
       propertyPath: near clip plane
-      value: 0.37037
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 8628574533934827968, guid: 873cb5a9cf5daa84199ce5928dfed673, type: 3}
       propertyPath: m_Name
