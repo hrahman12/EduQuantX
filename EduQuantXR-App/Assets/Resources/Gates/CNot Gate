@@ -1,0 +1,1 @@
+The controlled-X gate is also known as the controlled-NOT. It acts on a pair of qubits, with one acting as 'contro' and the other as 'target'. It performs an X on the target whenever the control is in |1> state. If the control qubit is in a superposition, this gate creates entanglement. 
