@@ -17,11 +17,10 @@ Circuit Creation of Interference
 -"Here is how we can make this phenomenon with circuits"
 (ADD GATE DESCRIPTORS HERE)
 
-Teleportation 
--"Another key reason why we love Quantum Computing is Teleportation. Yes! You heard that right we can teleport particles from one place to another!"
--"Star Trek is Real! On a microscopic scale!"
+Noise
+-"Another key concept is Noise which current Quantum Computing Research is focused on reducing. Such is Quantum Nature."
 
-Circuit Creation of Teleportation 
+Circuit Creation of Noise
 -"Here is how we do it"
 (ADD GATE DESCRIPTORS HERE)
 
