@@ -9,5 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/CameraScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 76dfecabf030dad4eb1c51d357f5713b, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9b2d639186f49b5488f658fe73c71df7, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 6773cd9af9e19db44899d51c669e319b, type: 2}
