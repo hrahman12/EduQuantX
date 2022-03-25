@@ -67,7 +67,7 @@ MonoBehaviour:
   backgroundOffset: {x: 0, y: 0, z: 0}
   contentScale: 2
   fontSize: 30
-  attachPointType: 9
+  attachPointType: 8
   attachPointOffset: {x: 0, y: 0, z: 0}
   toolTipLine: {fileID: 5213244234641622698}
 --- !u!114 &6575384920644290964
@@ -244,7 +244,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  widthMultiplier: 0.01
+  widthMultiplier: 1.51
   colorOffset: 0
   widthOffset: 0
   stepMode: 1
@@ -329,7 +329,7 @@ LineRenderer:
   - {x: 0, y: 3.916667, z: -16.666668}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.01
+    widthMultiplier: 1.51
     widthCurve:
       serializedVersion: 2
       m_Curve:

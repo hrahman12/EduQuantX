@@ -56,7 +56,7 @@ public class Circuit : MonoBehaviour
                 validGnobs.Add(curGnob);
             }
         }
-        var connector = GameObject.Instantiate(QubitAttachPrefab, gnob.transform.position + CameraCache.Main.transform.forward * -0.3F, Quaternion.identity, gnob.Operator.transform);
+        var connector = GameObject.Instantiate(QubitAttachPrefab, Vector3.Lerp(gnob.transform.position, CameraCache.Main.transform.position, 0.2F), Quaternion.identity, gnob.Operator.transform);
         connector.ChangeColor(gnob.Operator.GetComponent<Renderer>().sharedMaterial.color);
         // was qubit connector attached?
         while (validGnobs.All(n => !n.Operator))
