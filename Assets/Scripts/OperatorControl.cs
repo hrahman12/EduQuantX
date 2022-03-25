@@ -14,6 +14,7 @@ public class OperatorControl : MonoBehaviour
     {
         get => _currentPos; internal set
         {
+            GetComponent<Animator>().playbackTime = 0f;
             GetComponent<Animator>().Play("onGnob");
             _currentPos = value;
         }
