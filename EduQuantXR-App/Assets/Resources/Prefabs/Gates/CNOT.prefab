@@ -157,7 +157,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 577044648345731825, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Name
-      value: CNOT-Operator Variant
+      value: CNOT
       objectReference: {fileID: 0}
     - target: {fileID: 577044648345731835, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -173,6 +173,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 577044648654311934, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775375352595547211, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2354379688977565820, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}

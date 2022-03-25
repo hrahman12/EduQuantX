@@ -61,7 +61,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 577044648345731825, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Name
-      value: I-Operator
+      value: I
       objectReference: {fileID: 0}
     - target: {fileID: 577044648345731835, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -74,6 +74,11 @@ PrefabInstance:
     - target: {fileID: 577044648654311934, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522073118955818018, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
+      propertyPath: toolTipText
+      value: Lorem Ipsum lroasod,asLorem Ipsum lroasod,asLorem Ipsum lroasod,asLorem
+        Ipsum lroasod,asLorem Ipsum lroasod,asLorem Ipsum lroasod,asLorem Ipsum lroasod,as
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}

@@ -57,7 +57,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 577044648345731825, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Name
-      value: Reset-Operator
+      value: Reset
       objectReference: {fileID: 0}
     - target: {fileID: 577044648345731835, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -74,6 +74,12 @@ PrefabInstance:
     - target: {fileID: 577044648654311934, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522073118955818018, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
+      propertyPath: toolTipText
+      value: "lorem ipsum ... lorem ipsum ... lorem ipsum ... lorem ipsum ... lorem
+        ipsum ... lorem ipsum ... lorem ipsum ... lorem ipsum ... lorem ipsum ...
+        lorem ipsum ... lorem ipsum ... lorem ipsum ... \t"
       objectReference: {fileID: 0}
     - target: {fileID: 5784548312306632270, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Materials.Array.data[0]
