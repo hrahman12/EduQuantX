@@ -1,0 +1,29 @@
+/Story/
+Beginning
+-"We are entering the Quantum Lab! A place of curiosity, imagination and most importantly CATS!"
+-"Looks like were tossing a coin, but wait... its still spinnning..! Why?"
+-"This is our first look at Superposition"
+
+Circuit Creation of Superposition 
+-"We are going to add some gates which will show you how we make this happen"
+-"By adding gates we can see how to create Quantum Properties"
+(ADD GATE DESCRIPTORS HERE)
+
+Interference
+-"Interference is another key property of Quantum Computing as Matter can be described not just as particles but as WAVES!"
+-"We can see this in the water with physical waves"
+
+Circuit Creation of Interference
+-"Here is how we can make this phenomenon with circuits"
+(ADD GATE DESCRIPTORS HERE)
+
+Teleportation 
+-"Another key reason why we love Quantum Computing is Teleportation. Yes! You heard that right we can teleport particles from one place to another!"
+-"Star Trek is Real! On a microscopic scale!"
+
+Circuit Creation of Teleportation 
+-"Here is how we do it"
+(ADD GATE DESCRIPTORS HERE)
+
+
+
