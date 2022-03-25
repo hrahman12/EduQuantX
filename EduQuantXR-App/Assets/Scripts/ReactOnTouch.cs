@@ -1,13 +1,19 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ReactOnTouch : MonoBehaviour
 {
 
     private AudioSource _audio;
 
+    public UnityEvent RequestTwoQubits;
+
     public OperatorControl Operator { get; internal set; }
+    public LineRenderer Line { get; internal set; }
+    public int LinePos { get; internal set; }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -22,9 +28,8 @@ public class ReactOnTouch : MonoBehaviour
         _audio = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
-    void Update()
+    internal void DoTwoQubits()
     {
-        
+        RequestTwoQubits?.Invoke();
     }
 }

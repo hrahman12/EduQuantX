@@ -580,6 +580,7 @@ MonoBehaviour:
   - {fileID: 1065744206464434122}
   - {fileID: 4609671417507570802}
   GnobPrefab: {fileID: 6035897722347640560, guid: e05c4ac13ec870e4791254f091f5d4d1, type: 3}
+  QubitAttachPrefab: {fileID: 7660788958428325710, guid: 41df4b08af2dd21409400a7b08f1897b, type: 3}
 --- !u!1 &1835542751147209707
 GameObject:
   m_ObjectHideFlags: 0

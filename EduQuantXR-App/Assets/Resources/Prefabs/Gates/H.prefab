@@ -292,6 +292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 5
+  IsTwoLined: 0
 --- !u!54 &104779369014247783
 Rigidbody:
   m_ObjectHideFlags: 0

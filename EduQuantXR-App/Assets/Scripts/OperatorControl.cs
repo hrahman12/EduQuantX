@@ -10,6 +10,8 @@ public class OperatorControl : MonoBehaviour
 
     public float MoveSpeed = 5F;
 
+    public bool IsTwoLined = false;
+
     public ReactOnTouch CurrentPos
     {
         get => _currentPos; internal set
@@ -52,6 +54,10 @@ public class OperatorControl : MonoBehaviour
             Destroy(GetComponent<Rigidbody>());
             StartCoroutine(MoveTo(CurrentPos.transform.position));
             CurrentPos.Operator = this;
+            if (IsTwoLined)
+            {
+                CurrentPos.DoTwoQubits();
+            }
         }
         else
         {

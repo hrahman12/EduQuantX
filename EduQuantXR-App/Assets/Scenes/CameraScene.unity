@@ -267,6 +267,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1445361007, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1769687403553502885, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -314,6 +318,10 @@ PrefabInstance:
     - target: {fileID: 1769687403553502887, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
       propertyPath: m_Name
       value: MixedRealitySceneContent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508848867248253237, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
+      propertyPath: IsTwoLined
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
