@@ -18,6 +18,7 @@ public class ReactOnTouch : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (Operator) return;
+        if (!other.GetComponent<OperatorControl>()) return;
         _audio.Play();
         other.GetComponent<OperatorControl>().CurrentPos = this;
     }

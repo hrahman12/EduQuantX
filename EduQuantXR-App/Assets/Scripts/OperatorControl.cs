@@ -81,14 +81,6 @@ public class OperatorControl : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        //if (_moving && CheckOperator.Instance.CheckPosition(this, out var pos))
-        //{
-
-        //}
-    }
-
     private IEnumerator CheckIfMovedAsync()
     {
         var startPos = transform.position;
@@ -99,7 +91,11 @@ public class OperatorControl : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
         if (Respawnes)
-            GameObject.Instantiate(gameObject, startPos, startRot, transform.parent);
+        {
+            var newGate = GameObject.Instantiate(gameObject, startPos, startRot, transform.parent);
+            newGate.name = gameObject.name;
+            newGate.transform.Find("Tooltip").gameObject.SetActive(false);
+        }
         _createdClone = true;
         _moving = true;
     }
