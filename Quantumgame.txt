@@ -4,27 +4,20 @@ EduQuantXR
 
 /GATES/
 NOT - Flips the Qubit
-
 CNOT- Flips Target Qubit if Second qubit is |1>
-
+I- Identity Gate (reflects the Gate symmetrically, i.e. it returns the identical)
 H - Creates a Superposition state
-
 X Gate - Change phase on X axis 
 Y Gate - change phase on y axis
 Z Gate - change phase on z axis 
+|0>- Reset- Put the qubit in 0 ket
+Meas- Measure 
 
+Create a Superposition State:
+-Superposition State of the Cat in the box (either Alive or Dead).
 
-|0>- Put the qubit in 0 ket
+Create an Entanglement State:
+-Make the cat Entangled (Both Alive and Dead).
 
-Meas X- Measures in X Basis
-Meas Y - Measures in Y Basis
-Meas- Measures in Z basis
-----------------------------------------------------------------------------------
-Create a Flipped state:
--Flip State from Alive to Dead, dead to Alive 
-
-Create a Bell State
--Make the Cat 50% Alive 50% Dead.
-
-Create an Entangled State 
+Create an Entangled State
 -Put the cat as both Alive and Dead (any probabilites).
