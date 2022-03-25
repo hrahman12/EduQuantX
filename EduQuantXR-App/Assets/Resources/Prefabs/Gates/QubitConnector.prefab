@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 4259393868348755406}
   - component: {fileID: 8101871113019799531}
   - component: {fileID: 5984786844431865279}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: QubitConnector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,7 +176,7 @@ MonoBehaviour:
     position: {x: 0, y: 0, z: 0.000000008145975}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   endPoint:
-    position: {x: 0, y: 0.235, z: 0.000000008145975}
+    position: {x: 0, y: 0.25, z: 0.000000008145975}
     rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &4259393868348755406
 MonoBehaviour:
@@ -244,7 +244,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  widthMultiplier: 1.51
+  widthMultiplier: 0.3
   colorOffset: 0
   widthOffset: 0
   stepMode: 1
@@ -326,10 +326,10 @@ LineRenderer:
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: -16.666668}
-  - {x: 0, y: 3.916667, z: -16.666668}
+  - {x: 0, y: 4.166667, z: -16.666668}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 1.51
+    widthMultiplier: 0.3
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -414,7 +414,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7150340419293043279}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Anchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -445,7 +445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2970661761179475351}
   - component: {fileID: 7601100440906109357}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: ContentParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -495,7 +495,7 @@ GameObject:
   - component: {fileID: 8646222317520162908}
   - component: {fileID: 5926954720645967231}
   - component: {fileID: 1756543441189652308}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -671,7 +671,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8086271699155668782}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Pivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -708,7 +708,7 @@ GameObject:
   - component: {fileID: 6569711021991631608}
   - component: {fileID: 2355631144935480679}
   - component: {fileID: 1605018046986216194}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: TipBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1094,7 +1094,7 @@ GameObject:
   - component: {fileID: 2520627538023212730}
   - component: {fileID: 3221474335520226692}
   - component: {fileID: 4407143214199708934}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}

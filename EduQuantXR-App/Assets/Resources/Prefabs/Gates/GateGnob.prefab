@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6035897722347640563}
   - component: {fileID: 6035897722347640564}
   - component: {fileID: 6035897722347640560}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GateGnob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -205,3 +205,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 416269fb0987c8646af62a0eab104790, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RequestTwoQubits:
+    m_PersistentCalls:
+      m_Calls: []
