@@ -9,8 +9,8 @@ Circuit Creation of Superposition
 -"By adding gates we can see how to create Quantum Properties"
 (ADD GATE DESCRIPTORS HERE)
 
-Interference
--"Interference is another key property of Quantum Computing as Matter can be described not just as particles but as WAVES!"
+Interference + Entanglement
+-"Interference + Entanglement is another key property of Quantum Computing as Matter can be described not just as particles but as WAVES!"
 -"We can see this in the water with physical waves"
 
 Circuit Creation of Interference
