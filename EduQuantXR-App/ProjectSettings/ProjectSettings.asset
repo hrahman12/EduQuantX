@@ -595,8 +595,8 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: 
-    14: 
+    1: LEAPMOTIONCORE_PRESENT
+    14: LEAPMOTIONCORE_PRESENT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
