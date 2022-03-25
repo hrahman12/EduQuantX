@@ -1,0 +1,1 @@
+The H gate or Hafamard gate rotate the states |0> and |1> to |+> and |->, respectively. It is useful for making superpositions. As a Clifford gate, it is usefum for moving information between x and z bases.  
