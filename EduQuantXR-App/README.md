@@ -1,4 +1,4 @@
 # EduQuantX
 An Edugame teaching users Quantum Computing through Schrodinger's Cat.
 
-Need to install pip install -U flask
+FUTURE: Add NFT with Solana earning a part of the Cat.
