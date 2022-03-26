@@ -780,7 +780,7 @@ MonoBehaviour:
   contentParent: {fileID: 2894090719514524856}
   toolTipText: The H gate or Hafamard gate rotate the states |0> and |1> to |+> and
     |->, respectively. It is useful for making superpositions. As a Clifford gate,
-    it is usefum for moving information between x and z bases.
+    it is useful for moving information between x and z bases.
   backgroundPadding: {x: 0.33, y: 0.13}
   backgroundOffset: {x: 0, y: 0, z: 0}
   contentScale: 2
@@ -1772,14 +1772,12 @@ VideoPlayer:
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 0
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: 
-  m_EnabledAudioTracks: 00
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 1

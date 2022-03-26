@@ -398,7 +398,7 @@ PrefabInstance:
     - target: {fileID: 5522073118955818018, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: toolTipText
       value: The controlled-X gate is also known as the controlled-NOT. It acts on
-        a pair of qubits, with one acting as 'contro' and the other as 'target'.
+        a pair of qubits, with one acting as 'control' and the other as 'target'.
         It performs an X on the target whenever the control is in |1> state. If the
         control qubit is in a superposition, this gate creates entanglement.
       objectReference: {fileID: 0}

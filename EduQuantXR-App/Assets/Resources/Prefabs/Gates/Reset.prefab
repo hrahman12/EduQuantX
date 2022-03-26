@@ -77,11 +77,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2354379688977565820, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.43147805
+      value: 0.42349663
       objectReference: {fileID: 0}
     - target: {fileID: 2354379688977565820, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.25929898
+      value: 0.28436658
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Enabled
@@ -105,7 +105,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[1].y
-      value: 0.041854437
+      value: 0.041433338
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[1].z
@@ -117,7 +117,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[2].y
-      value: 0.043574173
+      value: 0.042000163
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[2].z
@@ -129,7 +129,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[3].y
-      value: 0.041381005
+      value: 0.038084894
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[3].z
@@ -137,11 +137,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[4].x
-      value: -0.059963036
+      value: -0.05996304
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[4].y
-      value: 0.036485918
+      value: 0.031061143
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[4].z
@@ -153,7 +153,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[5].y
-      value: 0.030099915
+      value: 0.022302538
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[5].z
@@ -165,7 +165,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[6].y
-      value: 0.023433981
+      value: 0.01318269
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[6].z
@@ -177,7 +177,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[7].y
-      value: 0.017699104
+      value: 0.0050752135
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[7].z
@@ -189,7 +189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[8].y
-      value: 0.0141062755
+      value: -0.0006462815
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[8].z
@@ -201,7 +201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[9].y
-      value: 0.01386649
+      value: -0.0026081698
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[9].z
@@ -209,11 +209,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[10].x
-      value: -0.09526807
+      value: -0.09526808
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[10].y
-      value: 0.018190734
+      value: 0.0005631614
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[10].z
@@ -225,7 +225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[11].y
-      value: 0.028290002
+      value: 0.010241328
       objectReference: {fileID: 0}
     - target: {fileID: 2454316743084535222, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Positions.Array.data[11].z
@@ -257,11 +257,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2474179306265804049, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: controlPoints.Point3.x
-      value: -0.12499996
+      value: -0.12499997
       objectReference: {fileID: 0}
     - target: {fileID: 2474179306265804049, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: controlPoints.Point3.y
-      value: -0.077543855
+      value: -0.10261145
       objectReference: {fileID: 0}
     - target: {fileID: 2474179306265804049, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: controlPoints.Point3.z
@@ -273,7 +273,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2474179306265804049, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: controlPoints.Point4.y
-      value: -0.0092989765
+      value: -0.034366578
       objectReference: {fileID: 0}
     - target: {fileID: 2474179306265804049, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: controlPoints.Point4.z
@@ -289,9 +289,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5522073118955818018, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: toolTipText
-      value: "lorem ipsum ... lorem ipsum ... lorem ipsum ... lorem ipsum ... lorem
-        ipsum ... lorem ipsum ... lorem ipsum ... lorem ipsum ... lorem ipsum ...
-        lorem ipsum ... lorem ipsum ... lorem ipsum ... \t"
+      value: Resetting the qubit.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522073118955818018, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
+      propertyPath: backgroundPadding.y
+      value: 0.27
       objectReference: {fileID: 0}
     - target: {fileID: 5784548312306632270, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -299,9 +301,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 10625a73881708949ac3976286febfa6, type: 2}
     - target: {fileID: 8935595270827326280, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_text
-      value: lorem ipsum ... lorem ipsum ... lorem ipsum ... lorem ipsum ... lorem
-        ipsum ... lorem ipsum ... lorem ipsum ... lorem ipsum ... lorem ipsum ...
-        lorem ipsum ... lorem ipsum ... lorem ipsum ...
+      value: Resetting the qubit.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
