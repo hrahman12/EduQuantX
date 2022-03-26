@@ -70,7 +70,8 @@ public class Circuit : MonoBehaviour
         {
             foreach (var pos in circuit)
             {
-                Destroy(pos.Operator.gameObject);
+                if (pos.Operator)
+                    Destroy(pos.Operator.gameObject);
             }
         }
     }
