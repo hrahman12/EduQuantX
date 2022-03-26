@@ -3050,7 +3050,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 930628010726629084, guid: f788aeea4a608cb41ba2c6c68e971d00, type: 3}
       propertyPath: m_Name
-      value: Z-Operator
+      value: Z
       objectReference: {fileID: 0}
     - target: {fileID: 930628010726629085, guid: f788aeea4a608cb41ba2c6c68e971d00, type: 3}
       propertyPath: m_RootOrder
@@ -3164,7 +3164,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 577044648345731825, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Name
-      value: H-Operator
+      value: H
       objectReference: {fileID: 0}
     - target: {fileID: 577044648654311934, guid: 7969ea7b91c804c48a1ca0ed3ad81a5b, type: 3}
       propertyPath: m_Layer
@@ -3230,7 +3230,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5231111410013687125, guid: f717ece1ab7a9b9489918b0fb0421230, type: 3}
       propertyPath: m_Name
-      value: CNOT-Operator
+      value: CNOT
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f717ece1ab7a9b9489918b0fb0421230, type: 3}
@@ -3292,9 +3292,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5957403166642805547, guid: a7fa0759ee50500498e80a870ab4fc27, type: 3}
       propertyPath: m_Name
-      value: Measurement-Operator
+      value: Measurement
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4759609825624137105, guid: a7fa0759ee50500498e80a870ab4fc27, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a7fa0759ee50500498e80a870ab4fc27, type: 3}
 --- !u!4 &5312935482767706998 stripped
 Transform:
@@ -3354,7 +3355,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8559389723057657963, guid: 83c7cad54935ab34ca789886ddd47327, type: 3}
       propertyPath: m_Name
-      value: NOT-Operator
+      value: NOT
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83c7cad54935ab34ca789886ddd47327, type: 3}
@@ -3416,7 +3417,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4043796313401909039, guid: 667db8eb5372b8f4196345bdc256f183, type: 3}
       propertyPath: m_Name
-      value: Y-Operator
+      value: Y
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 667db8eb5372b8f4196345bdc256f183, type: 3}
@@ -3434,7 +3435,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4999045000572650232, guid: 3dad11a9c1cc54549a8a3244c183c759, type: 3}
       propertyPath: m_Name
-      value: I-Operator
+      value: I
       objectReference: {fileID: 0}
     - target: {fileID: 4999045000572650233, guid: 3dad11a9c1cc54549a8a3244c183c759, type: 3}
       propertyPath: m_RootOrder
@@ -3540,7 +3541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4353106050868883573, guid: 668c5772ab7a3eb43aa8404882b6e876, type: 3}
       propertyPath: m_Name
-      value: Reset-Operator
+      value: Reset
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 668c5772ab7a3eb43aa8404882b6e876, type: 3}

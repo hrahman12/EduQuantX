@@ -64,6 +64,17 @@ public class Circuit : MonoBehaviour
         StartCoroutine(DoCheckCircuit());
     }
 
+    public void ClearCircuit()
+    {
+        foreach (var circuit in _circuitPositions)
+        {
+            foreach (var pos in circuit)
+            {
+                Destroy(pos.Operator.gameObject);
+            }
+        }
+    }
+
     private IEnumerator DoCheckCircuit()
     {
         while (this)
@@ -73,8 +84,8 @@ public class Circuit : MonoBehaviour
             foreach (var circuitLine in _circuitPositions)
             {
                 lines.Add(string.Join(";", (from gnob in circuitLine
-                                           where gnob.Operator
-                                           select gnob.Operator.gameObject.name).Reverse()));
+                                            where gnob.Operator
+                                            select gnob.Operator.gameObject.name).Reverse()));
             }
             foreach (var circuit in ValidCircuits)
             {

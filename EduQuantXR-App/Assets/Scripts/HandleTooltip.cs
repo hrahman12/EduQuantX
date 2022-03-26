@@ -24,6 +24,11 @@ public class HandleTooltip : MonoBehaviour
         Invoke(nameof(ShowingTooltip), 0.5F);
     }
 
+    public void ResetAllTooltip()
+    {
+        _shownTooltips.Clear();
+    }
+
     private void ShowingTooltip()
     {
         ShowTooltip.Invoke();
