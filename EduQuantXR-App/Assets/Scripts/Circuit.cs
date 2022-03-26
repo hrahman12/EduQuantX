@@ -21,6 +21,9 @@ public class Circuit : MonoBehaviour
         public string Name;
         public CheckCircuitLine[] CircuitLines;
         public UnityEvent FoundEvent;
+
+        public Texture2D HintImage;
+
         public KeyValuePair<UnityEvent, List<string>> GetToCheckLines()
         {
             var lines = new List<string>();
@@ -31,6 +34,9 @@ public class Circuit : MonoBehaviour
             return new KeyValuePair<UnityEvent, List<string>>(FoundEvent, lines);
         }
     }
+
+    [Serializable]
+    public class ImageEvent : UnityEvent<Texture2D> { }
 
     public static Circuit Instance;
 
@@ -47,6 +53,8 @@ public class Circuit : MonoBehaviour
     private Transform[][] _resultPositions;
 
     public CheckCircuit[] ValidCircuits;
+
+    public ImageEvent HintRequest;
 
     private void Awake()
     {
@@ -82,6 +90,12 @@ public class Circuit : MonoBehaviour
             lineIdx++;
         }
         StartCoroutine(DoCheckCircuit());
+    }
+
+    public void ShowHint()
+    {
+        if (ValidCircuits.Length < 1) return;
+        HintRequest?.Invoke(ValidCircuits[0].HintImage);
     }
 
     public void ClearCircuit()
