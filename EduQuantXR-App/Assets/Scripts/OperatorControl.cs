@@ -12,6 +12,8 @@ public class OperatorControl : MonoBehaviour
 
     public bool IsTwoLined = false;
 
+    public bool IsResult = false;
+
     public bool Respawnes = true;
 
     public ReactOnTouch CurrentPos
@@ -58,6 +60,10 @@ public class OperatorControl : MonoBehaviour
             if (IsTwoLined)
             {
                 CurrentPos.DoTwoQubits();
+            }
+            if (IsResult)
+            {
+                CurrentPos.DoRequestResult();
             }
         }
         else

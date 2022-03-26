@@ -11,6 +11,8 @@ public class ReactOnTouch : MonoBehaviour
 
     public UnityEvent RequestTwoQubits;
 
+    public UnityEvent RequestResult;
+
     public OperatorControl Operator { get; internal set; }
     public LineRenderer Line { get; internal set; }
     public int LinePos { get; internal set; }
@@ -27,6 +29,11 @@ public class ReactOnTouch : MonoBehaviour
     void Start()
     {
         _audio = GetComponent<AudioSource>();
+    }
+
+    internal void DoRequestResult()
+    {
+        RequestResult?.Invoke();
     }
 
     internal void DoTwoQubits()

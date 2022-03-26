@@ -668,7 +668,7 @@ Transform:
   m_GameObject: {fileID: 179802192479664421}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.8, z: -1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 1317698331798577631}
   - {fileID: 2654682043095312988}
@@ -697,9 +697,9 @@ MonoBehaviour:
   pivot: {fileID: 4485360136025177886}
   label: {fileID: 787539815511095853}
   contentParent: {fileID: 8059343486277232156}
-  toolTipText: 'You can reset the Tooltips or clear the circuit with the buttons
-    near your wrist. '
-  backgroundPadding: {x: 0.075, y: 0.02}
+  toolTipText: You can reset the Tooltips or clear the circuit with the buttons near
+    your wrist.
+  backgroundPadding: {x: 0.075, y: 0.06}
   backgroundOffset: {x: 0, y: 0, z: 0}
   contentScale: 2
   fontSize: 30
@@ -1326,7 +1326,7 @@ RectTransform:
   m_GameObject: {fileID: 1119955585553187003}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalScale: {x: 0.04, y: 0.04, z: 0.04}
   m_Children: []
   m_Father: {fileID: 2437338463393518085}
   m_RootOrder: 0
@@ -1531,7 +1531,7 @@ Transform:
   m_GameObject: {fileID: 1277234887321274451}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.001}
-  m_LocalScale: {x: 0.20695946, y: 0.11976774, z: 1}
+  m_LocalScale: {x: 0.16737163, y: 0.12983741, z: 1}
   m_Children: []
   m_Father: {fileID: 7628551741573820020}
   m_RootOrder: 1
@@ -4007,7 +4007,7 @@ RectTransform:
   m_GameObject: {fileID: 5246443243012758142}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalScale: {x: 0.04, y: 0.04, z: 0.04}
   m_Children: []
   m_Father: {fileID: 2437338463393518085}
   m_RootOrder: 1
@@ -4605,7 +4605,7 @@ RectTransform:
   m_GameObject: {fileID: 5818730422975951564}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalScale: {x: 0.04, y: 0.04, z: 0.04}
   m_Children: []
   m_Father: {fileID: 2437338463393518085}
   m_RootOrder: 2

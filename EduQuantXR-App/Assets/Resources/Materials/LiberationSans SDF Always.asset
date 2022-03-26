@@ -126,7 +126,7 @@ Material:
     - _OutlineSoftness: 0
     - _OutlineUVSpeedX: 0
     - _OutlineUVSpeedY: 0
-    - _OutlineWidth: 0
+    - _OutlineWidth: 0.049
     - _PerspectiveFilter: 0.875
     - _ProximityLight: 0
     - _ProximityLightSubtractive: 0

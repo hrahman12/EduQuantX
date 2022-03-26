@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8388546049923870616}
   - component: {fileID: 8511926796430296111}
   m_Layer: 0
-  m_Name: Line(Clone)
+  m_Name: Q1-line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -579,6 +579,10 @@ MonoBehaviour:
   - {fileID: 8511926796430296111}
   - {fileID: 1065744206464434122}
   - {fileID: 4609671417507570802}
+  ResultLines:
+  - {fileID: 329899791807625940}
+  - {fileID: 5140203418614868671}
+  - {fileID: 7400029228183221155}
   GnobPrefab: {fileID: 6035897722347640560, guid: e05c4ac13ec870e4791254f091f5d4d1, type: 3}
   QubitAttachPrefab: {fileID: 5984786844431865279, guid: dc2c3191eaf02a64183e2c524a642cd6, type: 3}
   ValidCircuits:
@@ -1851,7 +1855,7 @@ GameObject:
   - component: {fileID: 7727840905765134501}
   - component: {fileID: 4609671417507570802}
   m_Layer: 0
-  m_Name: Line(Clone)
+  m_Name: Q3-line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2159,7 +2163,7 @@ GameObject:
   - component: {fileID: 7109770605626156436}
   - component: {fileID: 5140203418614868671}
   m_Layer: 0
-  m_Name: Line(Clone)
+  m_Name: C2-line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2297,7 +2301,7 @@ GameObject:
   - component: {fileID: 3742828477460161365}
   - component: {fileID: 329899791807625940}
   m_Layer: 0
-  m_Name: Line(Clone)
+  m_Name: C1-line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2776,7 +2780,7 @@ GameObject:
   - component: {fileID: 8886071478387626701}
   - component: {fileID: 7400029228183221155}
   m_Layer: 0
-  m_Name: Line(Clone)
+  m_Name: C3-line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2914,7 +2918,7 @@ GameObject:
   - component: {fileID: 5726593316204781306}
   - component: {fileID: 1065744206464434122}
   m_Layer: 0
-  m_Name: Line(Clone)
+  m_Name: Q2-line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

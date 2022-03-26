@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.MixedReality.Toolkit.UI;
 using Microsoft.MixedReality.Toolkit.Utilities;
 using UnityEngine;
 using UnityEngine.Events;
@@ -35,11 +36,15 @@ public class Circuit : MonoBehaviour
 
     public LineRenderer[] ValidLines;
 
+    public LineRenderer[] ResultLines;
+
     public ReactOnTouch GnobPrefab;
 
     public QubitConnector QubitAttachPrefab;
 
     private ReactOnTouch[][] _circuitPositions;
+
+    private Transform[][] _resultPositions;
 
     public CheckCircuit[] ValidCircuits;
 
@@ -57,7 +62,22 @@ public class Circuit : MonoBehaviour
                 gnob.Line = line;
                 gnob.LinePos = i;
                 gnob.RequestTwoQubits.AddListener(() => TwoQubitsRequested(gnob));
+                gnob.RequestResult.AddListener(() => ResultRequested(gnob));
                 _circuitPositions[lineIdx][i - 1] = gnob;
+            }
+            lineIdx++;
+        }
+        _resultPositions = new Transform[ResultLines.Length][];
+        lineIdx = 0;
+        foreach (var line in ResultLines)
+        {
+            _resultPositions[lineIdx] = new Transform[line.positionCount - 2];
+            for (var i = 1; i < line.positionCount - 1; i++)
+            {
+                var gO = new GameObject();
+                gO.transform.parent = transform;
+                gO.transform.position = line.transform.TransformPoint(line.GetPosition(i));
+                _resultPositions[lineIdx][i - 1] = gO.transform;
             }
             lineIdx++;
         }
@@ -103,6 +123,28 @@ public class Circuit : MonoBehaviour
                 if (isValid)
                 {
                     validLines.Key?.Invoke();
+                }
+            }
+        }
+    }
+
+    private void ResultRequested(ReactOnTouch gnob)
+    {
+
+        //find result position
+        for (var i = 0; i < _circuitPositions.Length; i++)
+        {
+            var line = _circuitPositions[i];
+            for (var y = 0; y < line.Length; y++)
+            {
+                if (line[y] == gnob)
+                {
+                    //position found!
+                    var connector = GameObject.Instantiate(QubitAttachPrefab, _resultPositions[i][y].position, Quaternion.identity, gnob.Operator.transform);
+                    connector.Text = "V";
+                    connector.LineRoot.position = gnob.transform.position;
+                    Destroy(connector.GetComponentInChildren<ObjectManipulator>());
+                    return;
                 }
             }
         }

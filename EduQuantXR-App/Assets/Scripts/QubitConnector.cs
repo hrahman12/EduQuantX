@@ -11,6 +11,14 @@ public class QubitConnector : MonoBehaviour
 
     public Renderer Sphere;
 
+    public TMPro.TextMeshPro TextField;
+
+    public string Text
+    {
+        get { return TextField.text; }
+        set { TextField.text = value; }
+    }
+
     public void ChangeColor(Color clr)
     {
         var mixedRealityLineRenderer = GetComponent<MixedRealityLineRenderer>();
