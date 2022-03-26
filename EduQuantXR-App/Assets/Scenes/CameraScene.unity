@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &632796736 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 382162748, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
+  m_PrefabInstance: {fileID: 830442002}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &653118594
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,6 +324,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: MixedRealitySceneContent
       objectReference: {fileID: 0}
+    - target: {fileID: 2586040109756394631, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
+      propertyPath: Events.Array.data[0].Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1285498846}
+    - target: {fileID: 2586040109756394631, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
+      propertyPath: Events.Array.data[0].Event.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 632796736}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
 --- !u!1 &950605609 stripped
@@ -416,3 +429,8 @@ PrefabInstance:
     - {fileID: 463930440, guid: 873cb5a9cf5daa84199ce5928dfed673, type: 3}
     - {fileID: 8241698122239900368, guid: 873cb5a9cf5daa84199ce5928dfed673, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 873cb5a9cf5daa84199ce5928dfed673, type: 3}
+--- !u!1 &1285498846 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7239963548607853236, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
+  m_PrefabInstance: {fileID: 830442002}
+  m_PrefabAsset: {fileID: 0}

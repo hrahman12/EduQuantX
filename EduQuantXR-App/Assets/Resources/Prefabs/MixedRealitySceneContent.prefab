@@ -9158,6 +9158,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4062036205963355068}
     m_Modifications:
+    - target: {fileID: 8660035879074254354, guid: 928e5ff55b22f5b45b288e3303a93a85, type: 3}
+      propertyPath: Events.Array.data[0].Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8660035879074254354, guid: 928e5ff55b22f5b45b288e3303a93a85, type: 3}
+      propertyPath: Events.Array.data[0].Event.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 9196340267849317440, guid: 928e5ff55b22f5b45b288e3303a93a85, type: 3}
       propertyPath: m_IsActive
       value: 0
