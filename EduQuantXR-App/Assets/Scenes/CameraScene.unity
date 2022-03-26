@@ -321,6 +321,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 789f0c600759a6440b6f0441f63528b7, type: 3}
+--- !u!1 &950605609 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8628574533793743472, guid: 873cb5a9cf5daa84199ce5928dfed673, type: 3}
+  m_PrefabInstance: {fileID: 1017227176}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &950605615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950605609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf98dd1206224111a38765365e98e207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockCursorWhenFocusLocked: 1
+  setCursorInvisibleWhenFocusLocked: 0
+  maxGazeCollisionDistance: 10
+  raycastLayerMasks:
+  - serializedVersion: 2
+    m_Bits: 4294967291
+  stabilizer:
+    storedStabilitySamples: 60
+  gazeTransform: {fileID: 0}
+  minHeadVelocityThreshold: 0.5
+  maxHeadVelocityThreshold: 2
 --- !u!1001 &1017227176
 PrefabInstance:
   m_ObjectHideFlags: 0
